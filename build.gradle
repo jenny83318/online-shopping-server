@@ -21,7 +21,7 @@ dependencies {
 	implementation 'org.modelmapper:modelmapper:2.4.4'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	implementation 'org.postgresql:postgresql:42.1.4'
+	implementation 'org.postgresql:postgresql:42.7.3'
 	implementation 'commons-io:commons-io:2.11.0'
 	runtimeOnly group: 'org.postgresql', name: 'postgresql'
 	compileOnly 'org.projectlombok:lombok:1.18.20'
